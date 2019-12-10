@@ -1,7 +1,7 @@
 # Encrypted-DNS
-[![License](https://img.shields.io/github/license/Siujoeng-Lau/Encrypted-DNS.svg?style=for-the-badge)](https://github.com/Siujoeng-Lau/Encrypted-DNS/blob/master/LICENSE)
-[![Releases](https://img.shields.io/github/v/release/Siujoeng-Lau/Encrypted-DNS?style=for-the-badge)](https://github.com/Siujoeng-Lau/Encrypted-DNS/releases)
-[![Downloads](https://img.shields.io/pypi/dm/encrypted-dns?style=for-the-badge)](https://pypi.org/project/encrypted-dns/)
+[![License](https://img.shields.io/github/license/Siujoeng-Lau/Encrypted-DNS.svg)](https://github.com/Siujoeng-Lau/Encrypted-DNS/blob/master/LICENSE)
+[![Releases](https://img.shields.io/github/v/release/Siujoeng-Lau/Encrypted-DNS)](https://github.com/Siujoeng-Lau/Encrypted-DNS/releases)
+[![Downloads](https://pepy.tech/badge/encrypted-dns)](https://pepy.tech/project/encrypted-dns)
 
 Encrypted-DNS 是一个用于转发 DNS 请求的 DNS 服务器. 它支持 UDP, TCP, DNS-over-HTTPS, 以及 DNS-over-TLS 协议. 
 

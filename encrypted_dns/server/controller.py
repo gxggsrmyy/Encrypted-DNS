@@ -90,9 +90,10 @@ class Controller:
                         else:
                             ip_address = response[2][0]['record']
 
+                        current_dir = os.path.dirname(os.path.abspath(__file__)).rstrip('/').rstrip('server')
                         if self.dns_map[transaction_id][1] == 1 or (
                                 utils.is_valid_ipv4_address(ip_address) and utils.is_subnet_address(
-                            'filter_lists/chnroute.txt', ip_address)
+                                current_dir + 'filter_lists/chnroute.txt', ip_address)
                         ):
                             self.server.sendto(recv_data, sendback_address)
                             self.dns_map.pop(transaction_id)

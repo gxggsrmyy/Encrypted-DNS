@@ -1,6 +1,6 @@
 import encrypted_dns
 
-__VERSION__ = '1.1.3'
+__VERSION__ = '1.1.4'
 
 
 def start():
